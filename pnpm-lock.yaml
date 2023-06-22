@@ -12,7 +12,7 @@ specifiers:
   postcss: 8.4.21
   postcss-load-config: 4.0.1
   prettier: 2.8.3
-  prettier-plugin-svelte: 2.9.0
+  prettier-plugin-svelte: 2.10.1
   rehype-autolink-headings: 6.1.1
   rehype-slug: 5.1.0
   remark-external-links: 9.0.1
@@ -36,7 +36,7 @@ devDependencies:
   postcss: 8.4.21
   postcss-load-config: 4.0.1_postcss@8.4.21
   prettier: 2.8.3
-  prettier-plugin-svelte: 2.9.0_kdmmghgdi3ngrsq6otxkjilbry
+  prettier-plugin-svelte: 2.10.1_kdmmghgdi3ngrsq6otxkjilbry
   rehype-autolink-headings: 6.1.1
   rehype-slug: 5.1.0
   remark-external-links: 9.0.1
@@ -1937,11 +1937,11 @@ packages:
       source-map-js: 1.0.2
     dev: true
 
-  /prettier-plugin-svelte/2.9.0_kdmmghgdi3ngrsq6otxkjilbry:
-    resolution: {integrity: sha512-3doBi5NO4IVgaNPtwewvrgPpqAcvNv0NwJNflr76PIGgi9nf1oguQV1Hpdm9TI2ALIQVn/9iIwLpBO5UcD2Jiw==}
+  /prettier-plugin-svelte/2.10.1_kdmmghgdi3ngrsq6otxkjilbry:
+    resolution: {integrity: sha512-Wlq7Z5v2ueCubWo0TZzKc9XHcm7TDxqcuzRuGd0gcENfzfT4JZ9yDlCbEgxWgiPmLHkBjfOtpAWkcT28MCDpUQ==}
     peerDependencies:
       prettier: ^1.16.4 || ^2.0.0
-      svelte: ^3.2.0
+      svelte: ^3.2.0 || ^4.0.0-next.0
     dependencies:
       prettier: 2.8.3
       svelte: 3.55.1
